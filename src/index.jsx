@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import AppClass from "./AppClass";
+import './App.css';
 
 // import AppClass from "./AppClass";
 
@@ -19,6 +20,7 @@ if (useApp) {
 
 root.render(
   <React.StrictMode>
+      <h2 id="name">Kalvium Gallery</h2>
     {componentToRender}
   </React.StrictMode>
 );
